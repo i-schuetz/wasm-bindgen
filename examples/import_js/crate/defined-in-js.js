@@ -1,3 +1,5 @@
+import { foo } from "./myimport";
+
 export function name() {
     return 'Rust';
 }
