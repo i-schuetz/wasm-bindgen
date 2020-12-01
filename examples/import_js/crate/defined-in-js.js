@@ -1,7 +1,8 @@
 import { foo } from "./myimport";
 
 export function name() {
-    return 'Rust';
+  foo();
+  return "Rust";
 }
 
 export class MyClass {

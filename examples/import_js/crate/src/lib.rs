@@ -26,10 +26,10 @@ extern "C" {
 
 #[wasm_bindgen(start)]
 pub fn run() {
-    log(&format!("Hello from {}!", name())); // should output "Hello from Rust!"
+    // log(&format!("Hello from {}!", name())); // should output "Hello from Rust!"
 
-    let x = MyClass::new();
-    assert_eq!(x.number(), 42);
-    x.set_number(10);
-    log(&x.render());
+    // let x = MyClass::new();
+    // assert_eq!(x.number(), 42);
+    // x.set_number(10);
+    // log(&x.render());
 }
